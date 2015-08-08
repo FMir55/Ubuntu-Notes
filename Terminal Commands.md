@@ -1,7 +1,7 @@
 # List of Commands in Terminal Envirument
 - Just Remind the forgotten Commands
 
-##root 
+###root 
 for the first time
 ```
 sudo passwd root
@@ -12,13 +12,18 @@ su
 ```
 
 
-##Delete a Directory
+###Delete a Directory
 ```
 rm -rf (folder name)
 ```
 
 
-##Handle the tar.gz file
+###Handle the tar.gz file
 ```
 tar -xzf all.tar.gz
+```
+
+###Get the root of the directory
+```
+
 ```
