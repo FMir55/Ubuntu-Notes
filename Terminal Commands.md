@@ -25,5 +25,5 @@ tar -xzf all.tar.gz
 
 ###Get the root of the directory
 ```
-chmod -R 777 /<folder name>
+chmod -R 777 /<path>/<folder name>
 ```
