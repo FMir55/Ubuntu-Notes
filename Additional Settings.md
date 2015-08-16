@@ -22,4 +22,24 @@
   4. Choose 64bit .deb (適用於 Debian/Ubuntu)
   5. 接受並安裝
   
+##純文字介面
+```
+gedit /etc/default/grub &
+  
+#GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX_DEFAULT="text"
+```
+save & quit
+  
+```
+sudo update-grub
+```
+  
+```
+reboot
+```
+  
+ps. login acc is "fmirxx"
+  
+輸入 startx  即可切換至視窗介面，如需切換回文字介面，登出即可。
   
